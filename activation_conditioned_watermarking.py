@@ -33,9 +33,8 @@ class Config:
     sweep_last_n_layers: int = 3
 
     # Steering Parameters
-    # Moderate coefficient; dynamic scaling improves stability
-    coef_frac: float = 1.0
-    apply_steps: int = 150
+    coef_frac: float = 1.0  # How strongly to steer the model?
+    apply_steps: int = 150  # Apply to how many initial tokens/model calls?
     
     # Generation Parameters
     temperature: float = 0.7
