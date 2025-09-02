@@ -1,0 +1,21 @@
+# Activation-Conditioned Watermarking Requirements
+
+# Core dependencies
+torch>=2.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.6.0
+
+# Transformers and model libraries
+transformers>=4.30.0
+transformer-lens>=1.0.0
+
+# Scientific computing
+scikit-learn>=1.3.0
+
+# Optional but recommended for performance
+flash-attn>=2.0.0  # For faster attention (if CUDA available)
+
+# Utilities
+tqdm>=4.65.0  # Progress bars
+ipython>=8.0.0  # Interactive development
