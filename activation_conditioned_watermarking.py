@@ -1,5 +1,3 @@
-# activation_conditioned_watermarking_persona.py
-
 import os
 import gc
 import html
